@@ -1,0 +1,68 @@
+[     339ms] [INFO] Resource Sentinel initialized... @ https://techeurope.notion.site/paris-hack:0
+[    1237ms] [INFO] 2026-05-16T10:55:23.858Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[    1433ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://techeurope.notion.site/_assets/mainApp-8640fb0a4b233a0b.js:61
+[    1713ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://techeurope.notion.site/_assets/wasm-sqlite-worker-b6861135b361cf2b.js:0
+[    1797ms] [INFO] 2026-05-16T10:55:24.418Z [info] sqliteSchemaHelpers: attemptFastForwardMigration {data: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[    1819ms] [INFO] 2026-05-16T10:55:24.439Z [info] sqliteSchemaHelpers: successfulFastForwardMigration {data: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[    2169ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://techeurope.notion.site/_assets/transport-support-49d6a98cbf389fa8.js:0
+[    2169ms] [INFO] 2026-05-16T10:55:24.790Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[    2299ms] [INFO] 2026-05-16T10:55:24.920Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[    2508ms] [INFO] 2026-05-16T10:55:25.129Z [info] PageLoader: loserAborted {data: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[    3025ms] [INFO] 2026-05-16T10:55:25.646Z [info] useExpPingPolling: exp_ping_success {data: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[   33066ms] [INFO] 2026-05-16T10:55:55.685Z [info] useExpPingPolling: exp_ping_success {data: Object} @ https://techeurope.notion.site/_assets/76406-6b42df3763f56eeb.js:472
+[   63102ms] [INFO] 2026-05-16T10:56:25.722Z [info] useExpPingPolling: exp_ping_success {data: Object} @ https://techeurope.notion.site/_assets/76406-6b42df3763f56eeb.js:472
+[   93177ms] [INFO] 2026-05-16T10:56:55.797Z [info] useExpPingPolling: exp_ping_success {data: Object} @ https://techeurope.notion.site/_assets/76406-6b42df3763f56eeb.js:472
+[  123069ms] [INFO] 2026-05-16T10:57:25.689Z [info] useExpPingPolling: exp_ping_success {data: Object} @ https://techeurope.notion.site/_assets/76406-6b42df3763f56eeb.js:472
+[  153000ms] [INFO] 2026-05-16T10:57:55.618Z [info] useExpPingPolling: exp_ping_success {data: Object} @ https://techeurope.notion.site/_assets/76406-6b42df3763f56eeb.js:472
+[  159476ms] [INFO] Resource Sentinel initialized... @ https://techeurope.notion.site/paris-hack:0
+[  159754ms] [INFO] 2026-05-16T10:58:02.373Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[  159832ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://techeurope.notion.site/_assets/wasm-sqlite-worker-b6861135b361cf2b.js:0
+[  160265ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://techeurope.notion.site/_assets/mainApp-8640fb0a4b233a0b.js:61
+[  160477ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://techeurope.notion.site/_assets/transport-support-49d6a98cbf389fa8.js:0
+[  160478ms] [INFO] 2026-05-16T10:58:03.098Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[  160624ms] [INFO] 2026-05-16T10:58:03.244Z [info] PageLoader: loserAborted {data: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6
+[  160908ms] [INFO] 2026-05-16T10:58:03.528Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://techeurope.notion.site/_assets/app-8659e04f18f745c6.js:6

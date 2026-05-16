@@ -1,0 +1,44 @@
+{
+  "task": "sora-intent-extraction",
+  "description": "Game-intent extraction for language-learning roguelike. Player speaks a natural-language utterance; system extracts structured intent for game logic. Uses Pioneer GLiNER2 multi-task: entities for text spans (target/element/modifier) + classification heads for non-span labels (action/intent).",
+  "schema": {
+    "entities": ["target", "element", "modifier"],
+    "classifications": [
+      {"task": "action", "labels": ["attack", "defend", "cast", "open", "ask", "buy", "heal", "flee", "greet", "take", "use", "summon"]},
+      {"task": "intent", "labels": ["combat", "merchant", "healer", "interact", "defense", "magic"]}
+    ]
+  },
+  "notes": "Action and intent are classification labels (not text spans) because verbs and high-level categories don't have unambiguous text positions in user utterances. Only target/element/modifier are extractable spans.",
+  "examples": [
+    {"text": "I attack the dragon with fire", "expected": {"entities": {"target": "dragon", "element": "fire"}, "action": "attack", "intent": "combat"}},
+    {"text": "open the door please", "expected": {"entities": {"target": "door"}, "action": "open", "intent": "interact"}},
+    {"text": "how much does this potion cost", "expected": {"entities": {"target": "potion"}, "action": "ask", "intent": "merchant"}},
+    {"text": "I need help to heal my wounds", "expected": {"entities": {"target": "wounds"}, "action": "heal", "intent": "healer"}},
+    {"text": "I cast a shield spell", "expected": {"entities": {"target": "shield", "element": "magic"}, "action": "cast", "intent": "defense"}},
+    {"text": "stop right there", "expected": {"entities": {}, "action": "attack", "intent": "combat"}},
+    {"text": "let me look at the merchant's wares", "expected": {"entities": {"target": "wares"}, "action": "ask", "intent": "merchant"}},
+    {"text": "I dodge the trap carefully", "expected": {"entities": {"target": "trap", "modifier": "carefully"}, "action": "defend", "intent": "defense"}},
+    {"text": "give me the silver key", "expected": {"entities": {"target": "key", "modifier": "silver"}, "action": "take", "intent": "interact"}},
+    {"text": "I throw a fireball at the goblin", "expected": {"entities": {"target": "goblin", "element": "fire"}, "action": "cast", "intent": "magic"}},
+    {"text": "freeze the troll with ice", "expected": {"entities": {"target": "troll", "element": "ice"}, "action": "cast", "intent": "magic"}},
+    {"text": "I drink the healing potion", "expected": {"entities": {"target": "potion"}, "action": "use", "intent": "healer"}},
+    {"text": "I swing my sword at the skeleton", "expected": {"entities": {"target": "skeleton"}, "action": "attack", "intent": "combat"}},
+    {"text": "say hello to the shopkeeper", "expected": {"entities": {"target": "shopkeeper"}, "action": "greet", "intent": "interact"}},
+    {"text": "I summon lightning from above", "expected": {"entities": {"element": "lightning"}, "action": "summon", "intent": "magic"}},
+    {"text": "block the attack with my shield", "expected": {"entities": {"target": "shield"}, "action": "defend", "intent": "defense"}},
+    {"text": "I run from the dragon", "expected": {"entities": {"target": "dragon"}, "action": "flee", "intent": "combat"}},
+    {"text": "ask the wizard for guidance", "expected": {"entities": {"target": "wizard"}, "action": "ask", "intent": "interact"}},
+    {"text": "I parry the goblin's blade", "expected": {"entities": {"target": "goblin"}, "action": "defend", "intent": "defense"}},
+    {"text": "I'd like to buy a torch please", "expected": {"entities": {"target": "torch"}, "action": "buy", "intent": "merchant"}},
+    {"text": "I climb the rope upward", "expected": {"entities": {"target": "rope", "modifier": "upward"}, "action": "use", "intent": "interact"}},
+    {"text": "hit the orc as hard as possible", "expected": {"entities": {"target": "orc", "modifier": "hard"}, "action": "attack", "intent": "combat"}},
+    {"text": "I speak the magic word to the door", "expected": {"entities": {"target": "door", "element": "magic"}, "action": "cast", "intent": "magic"}},
+    {"text": "rest at the shrine to recover", "expected": {"entities": {"target": "shrine"}, "action": "heal", "intent": "healer"}},
+    {"text": "I throw rocks at the slime", "expected": {"entities": {"target": "slime"}, "action": "attack", "intent": "combat"}},
+    {"text": "trade three coins for the map", "expected": {"entities": {"target": "map", "modifier": "three"}, "action": "buy", "intent": "merchant"}},
+    {"text": "I quickly hide behind the pillar", "expected": {"entities": {"target": "pillar", "modifier": "quickly"}, "action": "defend", "intent": "defense"}},
+    {"text": "summon a flaming sword in my hand", "expected": {"entities": {"target": "sword", "element": "fire"}, "action": "summon", "intent": "magic"}},
+    {"text": "I gently push the lever down", "expected": {"entities": {"target": "lever", "modifier": "gently"}, "action": "use", "intent": "interact"}},
+    {"text": "I bandage the warrior's wound", "expected": {"entities": {"target": "warrior"}, "action": "heal", "intent": "healer"}}
+  ]
+}

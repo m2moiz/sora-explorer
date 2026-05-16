@@ -1,0 +1,35 @@
+{
+  "count": 30,
+  "generated_at": "2026-05-16T15:17:21Z",
+  "gpt_4o_mini": {
+    "f1": 0.724,
+    "p50_latency_ms": 1105,
+    "p99_latency_ms": 2371,
+    "cost_per_call_usd": 0.00015,
+    "runs_offline": false,
+    "label": "gpt-4o-mini",
+    "badge": "OpenAI",
+    "error_count": 0
+  },
+  "gliner2_base": {
+    "f1": 0.361,
+    "p50_latency_ms": 577,
+    "p99_latency_ms": 1022,
+    "cost_per_call_usd": 0,
+    "runs_offline": true,
+    "label": "GLiNER2 base",
+    "badge": "Pioneer",
+    "error_count": 0
+  },
+  "gliner2_ft": {
+    "f1": 0.378,
+    "p50_latency_ms": 547,
+    "p99_latency_ms": 1104,
+    "cost_per_call_usd": 0,
+    "runs_offline": true,
+    "label": "GLiNER2 fine-tuned",
+    "badge": "Pioneer",
+    "model_id": "53437893-b193-4c44-9179-73257b9aef31",
+    "error_count": 0
+  }
+}

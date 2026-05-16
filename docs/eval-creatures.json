@@ -1,0 +1,202 @@
+[
+  {
+    "id": "eval-01",
+    "description": "a mirror kraken that copies enemy spells but fears sunlight",
+    "expected": {
+      "element": "mirror",
+      "archetype": "counter mage",
+      "rarity": "mythic",
+      "abilities": ["Copy Enemy Spells"],
+      "weaknesses": ["sunlight"],
+      "stats": { "hp": 118, "atk": 16, "def": 16, "speed": 12, "magic": 34 }
+    },
+    "openaiBaseline": {
+      "element": "mirror",
+      "archetype": "counter mage",
+      "rarity": "mythic",
+      "abilities": ["Spell Copy"],
+      "weaknesses": ["sunlight"],
+      "stats": { "hp": 112, "atk": 15, "def": 16, "speed": 13, "magic": 32 }
+    }
+  },
+  {
+    "id": "eval-02",
+    "description": "a glass phoenix with stained wings that reflects curses and shatters under thunder",
+    "expected": {
+      "element": "glass",
+      "archetype": "rebirth duelist",
+      "rarity": "mythic",
+      "abilities": ["Reflects Curses"],
+      "weaknesses": ["thunder"],
+      "stats": { "hp": 87, "atk": 17, "def": 6, "speed": 27, "magic": 32 }
+    },
+    "openaiBaseline": {
+      "element": "glass",
+      "archetype": "rebirth duelist",
+      "rarity": "mythic",
+      "abilities": ["Curse Reflection"],
+      "weaknesses": ["thunder"],
+      "stats": { "hp": 90, "atk": 17, "def": 9, "speed": 20, "magic": 26 }
+    }
+  },
+  {
+    "id": "eval-03",
+    "description": "a basalt thunder golem with copper fists, fortress armor, and a weakness to moss vines",
+    "expected": {
+      "element": "thunder",
+      "archetype": "siege tank",
+      "rarity": "rare",
+      "abilities": ["Copper Fists"],
+      "weaknesses": ["moss vines"],
+      "stats": { "hp": 132, "atk": 32, "def": 29, "speed": 8, "magic": 13 }
+    },
+    "openaiBaseline": {
+      "element": "thunder",
+      "archetype": "siege tank",
+      "rarity": "rare",
+      "abilities": ["Copper Fists"],
+      "weaknesses": ["moss"],
+      "stats": { "hp": 130, "atk": 29, "def": 27, "speed": 7, "magic": 12 }
+    }
+  },
+  {
+    "id": "eval-04",
+    "description": "a moss vampire that drains warmth, blooms under moonlight, and burns in fire",
+    "expected": {
+      "element": "moss",
+      "archetype": "drain skirmisher",
+      "rarity": "epic",
+      "abilities": ["Drains Warmth"],
+      "weaknesses": ["fire"],
+      "stats": { "hp": 104, "atk": 18, "def": 14, "speed": 16, "magic": 29 }
+    },
+    "openaiBaseline": {
+      "element": "moss",
+      "archetype": "drain skirmisher",
+      "rarity": "epic",
+      "abilities": ["Warmth Drain"],
+      "weaknesses": ["fire"],
+      "stats": { "hp": 101, "atk": 18, "def": 13, "speed": 17, "magic": 27 }
+    }
+  },
+  {
+    "id": "eval-05",
+    "description": "a clockwork basilisk with brass eyes, gearcoil jaws, and a weakness to water",
+    "expected": {
+      "element": "clockwork",
+      "archetype": "control striker",
+      "rarity": "legendary",
+      "abilities": ["Gearcoil Jaws"],
+      "weaknesses": ["water"],
+      "stats": { "hp": 110, "atk": 21, "def": 18, "speed": 13, "magic": 17 }
+    },
+    "openaiBaseline": {
+      "element": "clockwork",
+      "archetype": "control striker",
+      "rarity": "legendary",
+      "abilities": ["Gearcoil Bite"],
+      "weaknesses": ["water"],
+      "stats": { "hp": 108, "atk": 22, "def": 19, "speed": 12, "magic": 17 }
+    }
+  },
+  {
+    "id": "eval-06",
+    "description": "an ice mantis duelist with crystal scythes, swift footwork, and a weakness to fire",
+    "expected": {
+      "element": "ice",
+      "archetype": "duelist",
+      "rarity": "rare",
+      "abilities": ["Crystal Scythes"],
+      "weaknesses": ["fire"],
+      "stats": { "hp": 92, "atk": 25, "def": 11, "speed": 27, "magic": 24 }
+    },
+    "openaiBaseline": {
+      "element": "ice",
+      "archetype": "duelist",
+      "rarity": "rare",
+      "abilities": ["Crystal Scythes"],
+      "weaknesses": ["fire"],
+      "stats": { "hp": 88, "atk": 25, "def": 10, "speed": 24, "magic": 21 }
+    }
+  },
+  {
+    "id": "eval-07",
+    "description": "a shadow centaur archer with a moonbone bow, blink speed, and a weakness to light",
+    "expected": {
+      "element": "shadow",
+      "archetype": "ranged skirmisher",
+      "rarity": "epic",
+      "abilities": ["Moonbone Bow"],
+      "weaknesses": ["light"],
+      "stats": { "hp": 118, "atk": 24, "def": 16, "speed": 20, "magic": 34 }
+    },
+    "openaiBaseline": {
+      "element": "shadow",
+      "archetype": "ranged skirmisher",
+      "rarity": "epic",
+      "abilities": ["Moonbone Bow"],
+      "weaknesses": ["light"],
+      "stats": { "hp": 104, "atk": 24, "def": 14, "speed": 22, "magic": 25 }
+    }
+  },
+  {
+    "id": "eval-08",
+    "description": "a poison salamander alchemist with venom glands, acid flasks, and a weakness to clean water",
+    "expected": {
+      "element": "poison",
+      "archetype": "alchemist",
+      "rarity": "uncommon",
+      "abilities": ["Acid Flasks"],
+      "weaknesses": ["clean water"],
+      "stats": { "hp": 104, "atk": 18, "def": 14, "speed": 16, "magic": 21 }
+    },
+    "openaiBaseline": {
+      "element": "poison",
+      "archetype": "alchemist",
+      "rarity": "uncommon",
+      "abilities": ["Acid Flask"],
+      "weaknesses": ["water"],
+      "stats": { "hp": 96, "atk": 17, "def": 13, "speed": 15, "magic": 22 }
+    }
+  },
+  {
+    "id": "eval-09",
+    "description": "a sun lion guardian with radiant mane, shield paws, and a weakness to shadow",
+    "expected": {
+      "element": "sunlight",
+      "archetype": "guardian",
+      "rarity": "legendary",
+      "abilities": ["Radiant Mane"],
+      "weaknesses": ["shadow"],
+      "stats": { "hp": 110, "atk": 21, "def": 26, "speed": 13, "magic": 17 }
+    },
+    "openaiBaseline": {
+      "element": "sunlight",
+      "archetype": "guardian",
+      "rarity": "legendary",
+      "abilities": ["Radiant Mane"],
+      "weaknesses": ["shadow"],
+      "stats": { "hp": 118, "atk": 20, "def": 25, "speed": 12, "magic": 21 }
+    }
+  },
+  {
+    "id": "eval-10",
+    "description": "a void jellyfish oracle with psychic tendrils, slow drifting defense, and a weakness to thunder",
+    "expected": {
+      "element": "void",
+      "archetype": "oracle",
+      "rarity": "mythic",
+      "abilities": ["Psychic Tendrils"],
+      "weaknesses": ["thunder"],
+      "stats": { "hp": 118, "atk": 16, "def": 16, "speed": 7, "magic": 34 }
+    },
+    "openaiBaseline": {
+      "element": "void",
+      "archetype": "oracle",
+      "rarity": "mythic",
+      "abilities": ["Psychic Tendrils"],
+      "weaknesses": ["thunder"],
+      "stats": { "hp": 105, "atk": 14, "def": 17, "speed": 7, "magic": 33 }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+backend/.venv/
+backend/app/**/__pycache__/
+frontend/.next/
+frontend/node_modules/
+*.pyc
+.DS_Store
+.env
+.env.local
+out/
+
+# Local workspace + AI tooling artifacts (not for public repo)
+.claude/
+.planning/
+AGENTS.md
+CLAUDE.md
+HANDOFF.md
+*_PLAN.md
+*PLAN.md
+*-plan*.png
+*_plan*.png

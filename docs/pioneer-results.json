@@ -1,0 +1,505 @@
+{
+  "mode": "pioneer-vs-live-openai",
+  "openai": {
+    "usedLive": true,
+    "model": "gpt-4.1-mini",
+    "note": "Live OpenAI baseline used.",
+    "errors": []
+  },
+  "count": 10,
+  "scores": {
+    "element": 0.2,
+    "archetype": 0.3,
+    "rarity": 0.2,
+    "abilities": 0.7,
+    "weaknesses": 0.9,
+    "stats": 0.9,
+    "overall": 0.533
+  },
+  "baselineScores": {
+    "element": 0.6,
+    "archetype": 0.4,
+    "rarity": 0.3,
+    "abilities": 1.0,
+    "weaknesses": 1.0,
+    "stats": 0.04,
+    "overall": 0.557
+  },
+  "latency": {
+    "minMs": 479,
+    "avgMs": 706.1,
+    "maxMs": 904
+  },
+  "rows": [
+    {
+      "id": "eval-01",
+      "description": "a mirror kraken that copies enemy spells but fears sunlight",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Mirror Kraken",
+        "element": "sunlight",
+        "archetype": "counter mage",
+        "rarity": "rare",
+        "abilities": [
+          "Copies Enemy Spells"
+        ],
+        "weaknesses": [
+          "sunlight"
+        ],
+        "stats": {
+          "hp": 118,
+          "atk": 16,
+          "def": 16,
+          "speed": 12,
+          "magic": 42
+        },
+        "latencyMs": 833,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 1.0,
+        "rarity": 0.0,
+        "abilities": 0.0,
+        "weaknesses": 1.0,
+        "stats": 1.0,
+        "overall": 0.5
+      },
+      "baselineScores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.3333333333333333
+      },
+      "elapsedMs": 836
+    },
+    {
+      "id": "eval-02",
+      "description": "a glass phoenix with stained wings that reflects curses and shatters under thunder",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Glass Phoenix",
+        "element": "thunder",
+        "archetype": "guardian",
+        "rarity": "rare",
+        "abilities": [
+          "Shatters Under Thunder",
+          "Reflects Curses",
+          "Stained Wings That Reflects Curses"
+        ],
+        "weaknesses": [
+          "curses",
+          "thunder"
+        ],
+        "stats": {
+          "hp": 87,
+          "atk": 17,
+          "def": 11,
+          "speed": 19,
+          "magic": 32
+        },
+        "latencyMs": 482,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 1.0,
+        "overall": 0.5
+      },
+      "baselineScores": {
+        "element": 1.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.5
+      },
+      "elapsedMs": 482
+    },
+    {
+      "id": "eval-03",
+      "description": "a basalt thunder golem with copper fists, fortress armor, and a weakness to moss vines",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Basalt Thunder",
+        "element": "moss",
+        "archetype": "siege tank",
+        "rarity": "rare",
+        "abilities": [
+          "Copper Fists"
+        ],
+        "weaknesses": [
+          "moss vines"
+        ],
+        "stats": {
+          "hp": 132,
+          "atk": 32,
+          "def": 37,
+          "speed": 8,
+          "magic": 13
+        },
+        "latencyMs": 836,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 1.0,
+        "rarity": 1.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 1.0,
+        "overall": 0.8333333333333334
+      },
+      "baselineScores": {
+        "element": 1.0,
+        "archetype": 0.0,
+        "rarity": 1.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.2,
+        "overall": 0.7
+      },
+      "elapsedMs": 837
+    },
+    {
+      "id": "eval-04",
+      "description": "a moss vampire that drains warmth, blooms under moonlight, and burns in fire",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Moss Vampire",
+        "element": "fire",
+        "archetype": "assassin",
+        "rarity": "rare",
+        "abilities": [
+          "Blooms Under Moonlight",
+          "Burns In Fire",
+          "Drains Warmth"
+        ],
+        "weaknesses": [
+          "warmth",
+          "moonlight"
+        ],
+        "stats": {
+          "hp": 104,
+          "atk": 18,
+          "def": 14,
+          "speed": 16,
+          "magic": 29
+        },
+        "latencyMs": 689,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 0.0,
+        "stats": 1.0,
+        "overall": 0.3333333333333333
+      },
+      "baselineScores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.3333333333333333
+      },
+      "elapsedMs": 691
+    },
+    {
+      "id": "eval-05",
+      "description": "a clockwork basilisk with brass eyes, gearcoil jaws, and a weakness to water",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Clockwork Basilisk",
+        "element": "water",
+        "archetype": "siege tank",
+        "rarity": "rare",
+        "abilities": [
+          "Brass Eyes"
+        ],
+        "weaknesses": [
+          "water"
+        ],
+        "stats": {
+          "hp": 110,
+          "atk": 21,
+          "def": 18,
+          "speed": 13,
+          "magic": 17
+        },
+        "latencyMs": 763,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 0.0,
+        "weaknesses": 1.0,
+        "stats": 1.0,
+        "overall": 0.3333333333333333
+      },
+      "baselineScores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.3333333333333333
+      },
+      "elapsedMs": 764
+    },
+    {
+      "id": "eval-06",
+      "description": "an ice mantis duelist with crystal scythes, swift footwork, and a weakness to fire",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Ice Mantis",
+        "element": "ice",
+        "archetype": "rebirth duelist",
+        "rarity": "rare",
+        "abilities": [
+          "Swift Footwork",
+          "Crystal Scythes"
+        ],
+        "weaknesses": [
+          "fire"
+        ],
+        "stats": {
+          "hp": 92,
+          "atk": 17,
+          "def": 11,
+          "speed": 27,
+          "magic": 24
+        },
+        "latencyMs": 809,
+        "fallback": false
+      },
+      "scores": {
+        "element": 1.0,
+        "archetype": 0.0,
+        "rarity": 1.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 1.0,
+        "overall": 0.8333333333333334
+      },
+      "baselineScores": {
+        "element": 1.0,
+        "archetype": 1.0,
+        "rarity": 1.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.8333333333333334
+      },
+      "elapsedMs": 810
+    },
+    {
+      "id": "eval-07",
+      "description": "a shadow centaur archer with a moonbone bow, blink speed, and a weakness to light",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Shadow Centaur",
+        "element": "light",
+        "archetype": "guardian",
+        "rarity": "rare",
+        "abilities": [
+          "Blink Speed",
+          "A Moonbone Bow"
+        ],
+        "weaknesses": [
+          "light"
+        ],
+        "stats": {
+          "hp": 92,
+          "atk": 17,
+          "def": 11,
+          "speed": 27,
+          "magic": 32
+        },
+        "latencyMs": 783,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.8,
+        "overall": 0.4666666666666667
+      },
+      "baselineScores": {
+        "element": 1.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.5
+      },
+      "elapsedMs": 783
+    },
+    {
+      "id": "eval-08",
+      "description": "a poison salamander alchemist with venom glands, acid flasks, and a weakness to clean water",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Poison Salamander",
+        "element": "acid",
+        "archetype": "rebirth duelist",
+        "rarity": "rare",
+        "abilities": [
+          "Venom Glands"
+        ],
+        "weaknesses": [
+          "clean water"
+        ],
+        "stats": {
+          "hp": 92,
+          "atk": 17,
+          "def": 11,
+          "speed": 19,
+          "magic": 24
+        },
+        "latencyMs": 904,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 0.0,
+        "weaknesses": 1.0,
+        "stats": 0.8,
+        "overall": 0.3
+      },
+      "baselineScores": {
+        "element": 1.0,
+        "archetype": 1.0,
+        "rarity": 1.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.8333333333333334
+      },
+      "elapsedMs": 905
+    },
+    {
+      "id": "eval-09",
+      "description": "a sun lion guardian with radiant mane, shield paws, and a weakness to shadow",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Sun Lion",
+        "element": "sun",
+        "archetype": "guardian",
+        "rarity": "rare",
+        "abilities": [
+          "Radiant",
+          "Radiant Mane"
+        ],
+        "weaknesses": [
+          "shadow"
+        ],
+        "stats": {
+          "hp": 92,
+          "atk": 17,
+          "def": 27,
+          "speed": 19,
+          "magic": 24
+        },
+        "latencyMs": 483,
+        "fallback": false
+      },
+      "scores": {
+        "element": 0.0,
+        "archetype": 1.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.8,
+        "overall": 0.6333333333333333
+      },
+      "baselineScores": {
+        "element": 0.0,
+        "archetype": 1.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.2,
+        "overall": 0.5333333333333333
+      },
+      "elapsedMs": 485
+    },
+    {
+      "id": "eval-10",
+      "description": "a void jellyfish oracle with psychic tendrils, slow drifting defense, and a weakness to thunder",
+      "providerMode": "live",
+      "baselineSource": "live-openai",
+      "pioneer": {
+        "name": "Void Jellyfish",
+        "element": "void",
+        "archetype": "guardian",
+        "rarity": "rare",
+        "abilities": [
+          "Slow Drifting Defense",
+          "Psychic Tendrils"
+        ],
+        "weaknesses": [
+          "thunder"
+        ],
+        "stats": {
+          "hp": 132,
+          "atk": 24,
+          "def": 21,
+          "speed": 5,
+          "magic": 21
+        },
+        "latencyMs": 479,
+        "fallback": false
+      },
+      "scores": {
+        "element": 1.0,
+        "archetype": 0.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.6,
+        "overall": 0.6
+      },
+      "baselineScores": {
+        "element": 1.0,
+        "archetype": 1.0,
+        "rarity": 0.0,
+        "abilities": 1.0,
+        "weaknesses": 1.0,
+        "stats": 0.0,
+        "overall": 0.6666666666666666
+      },
+      "elapsedMs": 480
+    }
+  ]
+}

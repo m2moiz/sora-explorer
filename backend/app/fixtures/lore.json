@@ -1,0 +1,62 @@
+{
+  "glass": {
+    "summary": "{name} refracts spellwork like a prism, but brittle forms make thunder and sonic force credible counters. Watch for weaknesses: {weaknesses}.",
+    "citations": [
+      {
+        "title": "Fixture Lore: Glass and Resonance",
+        "url": "https://procedural-coliseum.local/lore/glass-resonance",
+        "snippet": "Glass-aligned creatures excel at reflection and light tricks while suffering against vibration, thunder, and direct pressure."
+      }
+    ]
+  },
+  "thunder": {
+    "summary": "{name} carries storm pressure and heavy impact damage. Grounding, roots, and patient defensive play can blunt its charge. Watch for weaknesses: {weaknesses}.",
+    "citations": [
+      {
+        "title": "Fixture Lore: Storm Constructs",
+        "url": "https://procedural-coliseum.local/lore/storm-constructs",
+        "snippet": "Thunder creatures hit hard and disrupt magic, but grounded natural elements can drain their charge."
+      }
+    ]
+  },
+  "moss": {
+    "summary": "{name} wins by attrition, roots, and regeneration. Clean cuts, fire, and reflective magic keep its growth in check. Watch for weaknesses: {weaknesses}.",
+    "citations": [
+      {
+        "title": "Fixture Lore: Living Crypt Flora",
+        "url": "https://procedural-coliseum.local/lore/crypt-flora",
+        "snippet": "Moss and root creatures thrive in drawn-out fights but can be disrupted by heat, glassy reflection, and controlled arena spacing."
+      }
+    ]
+  },
+  "clockwork": {
+    "summary": "{name} controls timing with precision machinery. Water, rust, and invasive growth threaten its gears. Watch for weaknesses: {weaknesses}.",
+    "citations": [
+      {
+        "title": "Fixture Lore: Clockwork Beasts",
+        "url": "https://procedural-coliseum.local/lore/clockwork-beasts",
+        "snippet": "Clockwork creatures are predictable but efficient; moisture and tangling vines are common counters."
+      }
+    ]
+  },
+  "mirror": {
+    "summary": "{name} turns enemy force back through reflection and illusion. Thunder, shadow, and sunlight can distort the mirror field. Watch for weaknesses: {weaknesses}.",
+    "citations": [
+      {
+        "title": "Fixture Lore: Reflective Abyssals",
+        "url": "https://procedural-coliseum.local/lore/reflective-abyssals",
+        "snippet": "Mirror creatures punish direct aggression, but overloaded light, thunder cracks, or shadow interference can break their copying rhythm."
+      }
+    ]
+  },
+  "default": {
+    "summary": "{name} has enough mythic texture for the arena, with counters derived from its stated weaknesses: {weaknesses}.",
+    "citations": [
+      {
+        "title": "Fixture Lore: Arena Weakness Rules",
+        "url": "https://procedural-coliseum.local/lore/arena-rules",
+        "snippet": "When live grounding is unavailable, the coliseum uses declared creature weaknesses and element matchups as fixture lore."
+      }
+    ]
+  }
+}

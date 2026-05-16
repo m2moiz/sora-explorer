@@ -1,0 +1,70 @@
+- generic [ref=e5]:
+  - generic [ref=e7]:
+    - link "Skip to content" [ref=e9] [cursor=pointer]:
+      - /url: "#main"
+      - generic [ref=e10]:
+        - text: Skip to content
+        - img [ref=e11]
+    - generic [ref=e13]:
+      - banner [ref=e14]:
+        - generic [ref=e16]:
+          - 'button "{Tech: Europe} Paris AI Hackathon Manual" [disabled] [ref=e18]':
+            - generic [ref=e23]: "{Tech: Europe} Paris AI Hackathon Manual"
+          - generic [ref=e24]:
+            - button "Close panel" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+            - generic [ref=e30]:
+              - button [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Share site to socials" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button [ref=e41] [cursor=pointer]:
+                - img [ref=e42]
+              - button "More actions" [ref=e45] [cursor=pointer]:
+                - img [ref=e46]
+              - button "Get Notion free" [ref=e48] [cursor=pointer]
+      - main [ref=e49]:
+        - group [disabled] [ref=e52]:
+          - generic [ref=e54]:
+            - generic [ref=e72]:
+              - img "Page icon" [ref=e77]
+              - 'heading "{Tech: Europe} Paris AI Hackathon Manual" [level=1] [ref=e82]'
+            - generic [ref=e84]:
+              - note [ref=e86]:
+                - generic [ref=e87]:
+                  - img "Callout icon" [ref=e93]: 🏆
+                  - generic [ref=e100]: ">10k€ Price Pool distributed across cash, hardware & credits"
+              - heading "Important Links:" [level=3] [ref=e105]
+              - generic [ref=e111]:
+                - text: Discord Server -
+                - link "https://discord.gg/brSqTjJVdh" [disabled] [ref=e112] [cursor=pointer]:
+                  - /url: https://discord.gg/brSqTjJVdh
+              - generic [ref=e118]: Project Submission Form -
+              - generic [ref=e124]: "Location: Hexa"
+              - generic [ref=e135]:
+                - button "Open" [disabled] [ref=e137] [cursor=pointer]:
+                  - img [ref=e138]
+                - heading "Agenda" [level=3] [ref=e142]
+              - generic [ref=e147]:
+                - button "Open" [disabled] [ref=e149] [cursor=pointer]:
+                  - img [ref=e150]
+                - heading "Competition Rules & Submission Guidelines" [level=3] [ref=e154]
+              - generic [ref=e159]:
+                - button "Open" [disabled] [ref=e161] [cursor=pointer]:
+                  - img [ref=e162]
+                - heading "Hackathon Tracks, Side Challenges & Prizes" [level=3] [ref=e166]
+              - generic [ref=e171]:
+                - button "Open" [disabled] [ref=e173] [cursor=pointer]:
+                  - img [ref=e174]
+                - heading "Resources" [level=3] [ref=e178]
+              - generic [ref=e183]:
+                - button "Open" [disabled] [ref=e185] [cursor=pointer]:
+                  - img [ref=e186]
+                - heading "FAQ" [level=3] [ref=e190]
+      - region [ref=e192]
+  - dialog "Notion will now reload to apply your cookie preferences. Click okay to continue." [ref=e211]:
+    - generic [ref=e212]:
+      - generic [ref=e213]: Notion will now reload to apply your cookie preferences. Click okay to continue.
+      - button "OK" [active] [ref=e215] [cursor=pointer]
+  - status [ref=e207]
+  - alert [ref=e208]

@@ -1,0 +1,84 @@
+{
+  "themeId": "moonlit-bodega",
+  "displayName": "Moonlit Bodega",
+  "language": "es-ES",
+  "languageDisplay": "Spanish",
+  "palette": {
+    "bg": "#2a1a3e",
+    "fg": "#f4d35e",
+    "accent": "#ee964b"
+  },
+  "mood": "wholesome, slightly uncanny, friendly cat",
+  "fluxPromptSeed": "moonlit bodega convenience store at night, pixel art, glowing neon fridge, friendly cat",
+  "subtitle": "An Imagined Roguelike",
+  "easterEgg": "The bodega remembers what you should have said.",
+  "rooms": [
+    {
+      "id": "room-1",
+      "type": "merchant",
+      "biome": "Moonlit Bodega",
+      "title": "El Gato Tendero",
+      "description": "A neon-lit cat shopkeeper purrs from behind the counter. Shelves shimmer with impossible groceries.",
+      "targetPhrase": "¿Cuánto cuesta?",
+      "translation": "How much does it cost?",
+      "language": "es-ES",
+      "difficulty": 1,
+      "expectedIntent": "merchant",
+      "expectedAction": "ask_price",
+      "expectedTarget": "item",
+      "visualPrompt": "pixel art cat shopkeeper behind counter in neon bodega at night, friendly, wholesome",
+      "fallbackGradient": "linear-gradient(135deg, #2a1a3e 0%, #ee964b 100%)",
+      "voiceProfileNarrator": "qTA0lxFpynJdoxx7",
+      "voiceProfileNpc": "cu0XE3Cxmg_GmSJ3",
+      "rewardOnSuccess": "key",
+      "phonetic": "KWAHN-toh KWES-tah"
+    },
+    {
+      "id": "room-2",
+      "type": "enemy",
+      "biome": "Moonlit Bodega",
+      "title": "Asalto en el Pasillo",
+      "description": "A goblin-shaped shadow lunges from the cereal aisle. You have one chance to halt it.",
+      "targetPhrase": "¡Detente!",
+      "translation": "Stop!",
+      "language": "es-ES",
+      "difficulty": 2,
+      "expectedIntent": "combat",
+      "expectedAction": "attack",
+      "expectedTarget": "enemy",
+      "visualPrompt": "pixel art goblin shadow in neon convenience store aisle at night, dramatic",
+      "fallbackGradient": "linear-gradient(135deg, #2a1a3e 0%, #b80c09 100%)",
+      "voiceProfileNarrator": "qTA0lxFpynJdoxx7",
+      "voiceProfileNpc": "cu0XE3Cxmg_GmSJ3",
+      "enemy": {
+        "name": "Sombra Lunar",
+        "hp": 12
+      },
+      "phonetic": "deh-TEN-teh"
+    },
+    {
+      "id": "room-3",
+      "type": "boss",
+      "biome": "Moonlit Bodega",
+      "title": "El Gato Eterno",
+      "description": "The shopkeeper's eyes glow. He is older than the bodega, older than language. Speak the parting words.",
+      "targetPhrase": "Hasta luego, gato eterno",
+      "translation": "Goodbye, eternal cat",
+      "language": "es-ES",
+      "difficulty": 3,
+      "expectedIntent": "interact",
+      "expectedAction": "farewell",
+      "expectedTarget": "boss",
+      "visualPrompt": "pixel art ancient glowing cat shopkeeper boss, neon halo, eternal, friendly menace",
+      "fallbackGradient": "linear-gradient(135deg, #2a1a3e 0%, #f4d35e 100%)",
+      "voiceProfileNarrator": "cu0XE3Cxmg_GmSJ3",
+      "voiceProfileNpc": "cu0XE3Cxmg_GmSJ3",
+      "boss": {
+        "name": "El Gato Eterno",
+        "hp": 20,
+        "phaseTrigger": 0.5
+      },
+      "phonetic": "AHS-tah loo-EH-go, GAH-toh eh-TER-no"
+    }
+  ]
+}
